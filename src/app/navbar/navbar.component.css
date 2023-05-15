@@ -1,0 +1,23 @@
+header{
+    height: 150px;
+    text-align: center;
+    background-color: #1B2430;
+}
+.brand{
+    font-family: 'Bruno Ace', cursive;
+    font-size: 100px;
+    font-weight: 900;
+    background-image: url(../../assets/img/pexels-magda-ehlers-985287.jpg);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: text-animate 30s infinite linear;
+}
+
+@keyframes text-animate{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
